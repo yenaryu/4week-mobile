@@ -1,0 +1,33 @@
+.header{
+    .group-flex{
+        height: 61px;
+        position: relative;
+        
+    }
+
+    .logo{
+        position: absolute;
+        top: 50%; left: 50%;
+        transform: translate(-50%, -50%);}
+        a{
+            display: block; height: 100%;
+            width: 133px; height: 17px; 
+            background: url(../image/logo.png) no-repeat center;
+            background-size: contain;  //배경이미지 크기 조정(안하면 w,h에서 넘침)
+ 
+    }
+
+    .link-area{
+        height: 61px;
+        display: flex; justify-content: space-between; align-items: center; 
+        .link-menu{background: url(../image/menu.png) no-repeat center;
+            background-size: contain;
+            width: 25px; height: 19px;
+            margin-left: 18px;}
+        .link-shop{background: url(../image/shop.png) no-repeat center;
+            background-size: contain;
+            width: 24px; height: 23px;
+            margin-right: 18px;}
+
+        }
+    }

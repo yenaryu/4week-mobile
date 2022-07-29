@@ -1,0 +1,77 @@
+.footer {padding-top: 30px; //60-30
+    .group-sns {
+        background: #d71609; height: 80px;
+        display: flex; justify-content: center; align-items: center;
+        .link-sns {
+            width: 35px; height: 35px; 
+            &+.link-sns{
+                margin-left: 25px;
+            }
+            &.ic-facebook {
+                background: url('../image/facebook.png') no-repeat center;
+                background-size: contain;
+            }
+            &.ic-blog {
+                background: url('../image/blog.png') no-repeat center;
+                background-size: contain;
+            }
+            &.ic-insta {
+                background: url('../image/instagram.png') no-repeat center;
+                background-size: contain;
+            }
+            &.ic-youtube {
+                background: url('../image/youtube.png') no-repeat center;
+                background-size: contain;
+            }
+        }
+    }
+
+
+
+    .footer-info {background: #aaa; height: 390px;
+        font-size: 12px;
+        color: #fff;
+        padding-top: 35px;
+
+        .group-cs {border: 2px solid #d5d5d5;
+            width: 196px; height: 96px;
+            margin: 0 auto;
+            text-align: center;
+            /* line-height: 15px; */
+            h3 {font-size: 16px;  //실제13 16-3 여백2
+                font-family: $font-en;
+                margin-top: 12px; //14-2
+                margin-bottom: 9px;
+                line-height: 1;
+            }
+            .desc {margin-top: 8px; //15-12 3 여백2  10-2
+                line-height: 15px;
+                
+            }
+            a { display: block;
+                font-family: $font-en;
+                font-size: 20px; //실제16 20-16 4 여백2
+                font-weight: bold;
+                margin: 13px 0; //상단17-2-2=13  /하단 15-2=13
+                line-height: 1;
+            }
+        }
+
+    .logo{margin: 42px 0 19px 20px; //22-3
+        width: 136px; height: 17px;
+        a{display: block; height: 100%;
+            background: url(../image/footer_logo.png) no-repeat center;
+            background-size: contain;
+        }
+        }
+
+    .addr-area{margin-left: 20px;
+        p{line-height: 18px;} 
+        .bar{display: inline-block;
+            margin: 0 7px 0 5px;
+            width: 1px; height: 10px; background: #fff; }
+        .copy{margin-top: 20px;} //18-12 여백3 26-3-3 20
+        }
+        
+    }
+}

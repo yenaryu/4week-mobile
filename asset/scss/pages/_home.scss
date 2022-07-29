@@ -1,0 +1,160 @@
+.sc-visual{
+    position: relative;
+    .link-slide{
+        img{
+            width: 100%;
+        }
+    }
+
+}
+
+
+.sc-intro{
+    .group-content{
+        .wrap{
+            padding: 0 10px;
+        }
+        .img-box{
+            img{width: 100%;}
+        }
+        .info-box{
+            .desc{
+                margin: 18px 0 22px;
+                line-height: 20px; 
+                font-size: 13px;
+                letter-spacing: -0.025em;
+            }
+            
+        }
+    }
+}
+
+
+.sc-recommend{
+    .group-content{
+        padding: 45px 20px; //상하 좌우
+        &.bg-monitor{
+            background: url(../image/monitor.jpg) center / cover;
+        }
+        &.bg-tv{
+            background: url(../image/tv.jpg) center / cover;
+        }
+        &.bg-air{
+            background: url(../image/air.jpg) center / cover;
+        }
+        .info-box{
+            width: 280px; height: 202px; background: rgba(0,0,0,0.7); color: #fff; //불투명도0.70
+            margin: 0 auto;
+            .title{line-height: 20px;
+                    font-size: 16px;
+                    padding: 21px 15px 13px 15px; //20-16=4 여백2 /상21 우 하19-2-4=13 좌15
+                    font-weight: bold; 
+                    } 
+            .desc{line-height: 20px;
+                    font-size: 13px; //20-13=7 여백4 /상 우 하 좌15
+                    letter-spacing: -0.025em;
+                    padding: 0 15px;
+                    } 
+        
+        
+        } 
+    }
+}
+
+
+.sc-event{
+    margin-top: 39px;
+    padding: 0 35px;
+
+    .event-item{/* width: 252px; */ margin: 0 auto;} 
+
+    .img-box{
+        img{width: 100%;}
+       }    
+
+
+        .info-box{
+            .term{
+                font-size: 12px;
+                color:#858585;
+                line-height: 14px;
+                margin: 14px 0 12px 0; //14-12 2/2 =여백1 16-1 16-2-1
+                //상단15-1 하단15-1-2
+                display: block;
+            }
+            .title{
+                font-size: 15px;  //15-11=4 여백2
+                font-weight: bold;
+            }
+            .desc{
+                font-size: 12px; //12-11=1 여백1
+                line-height: 1;
+                margin-top: 8px; //11-2-1
+                margin-bottom: 21px;  //하단22-1
+                letter-spacing: -0.025em;
+                @include elip
+                
+            }
+        }
+    }
+
+
+.sc-review{
+    padding: 0 30px;
+    .group-content{
+        padding-bottom: 102px;
+        position: relative;
+        .wrap{/* width: 263px; */ margin: 0 auto;
+        }
+        .img-box{
+            img{width: 100%;}
+        }
+        .info-box{
+            margin-top: 15px; //상단18-3
+            .title{font-size: 15px; //여백3
+                line-height: 20px; 
+                font-weight: bold;
+            }
+            .desc{
+                margin-top: 7px;//14-3-4
+                font-size: 13px; //여백4
+                line-height: 20px; 
+                margin-bottom: 16px; //20-4=16
+                @include elip-multi(2,20px);
+            }
+        }
+    }
+}
+
+
+
+.group-row{
+    margin-top: 50px;
+    .sc-board{
+        margin: 0 auto;
+        padding: 0 20px;
+        width: 280px; 
+        position: relative; 
+        margin-bottom: 30px;
+        h2{line-height: 20px; font-size: 16px; color: #222; //20-16=4 여백2
+        margin-bottom: 16px; //18-2
+    }
+    
+    .board-list{border-top: 2px solid #ddd;} 
+    .board-item{border-bottom: 1px solid #ddd;
+            font-size: 12px;
+            line-height: 50px;
+        a{@include elip;}} 
+    .date{color: #888;}
+    .text{margin-left: 19px;}
+    .link-more{
+        background: url(../image/linkmore.png) no-repeat center;
+        background-size: 12px 12px;
+        width: 26px; height: 26px; 
+        border: 2px solid #eee;
+        position: absolute;
+        top: 0; 
+        right: 20px; //패딩만큼 
+    }
+}
+}

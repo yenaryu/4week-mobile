@@ -1,0 +1,42 @@
+.pagination{position: absolute;
+    display: flex;
+    transform: translateX(-50%);
+    bottom: 0; left: 50%;
+    gap:9px;
+    .bullet{
+        border-radius: 50%;
+        width: 10px;
+        height: 10px;
+        
+        .sc-visual &{
+            margin-bottom: 17px;
+            border: 1px solid #fff;
+            &.active{background: #fff;}
+            
+        }
+        .group-content &{
+            border: 1px solid #ddd;
+            &.active{background: #ddd;}
+
+        }
+}
+}
+
+
+.link-detail{
+    display: block;
+    width: 123px;
+    height: 38px;
+    box-sizing: border-box;
+    border: 1px solid #222;
+    text-align: center;
+    line-height: 37px;
+    font-size: 12px;
+
+    .sc-intro &{margin: 0 auto;}
+
+    .sc-event &{margin-bottom: 39px;}
+
+    .sc-review &{margin: 0 auto;}
+
+}

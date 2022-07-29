@@ -1,0 +1,18 @@
+.sc-title{
+    text-align: center; 
+    font-size: 20px;
+    font-family: $font-en; 
+    line-height: 1;
+
+    .sc-intro &{
+    margin: 38px 0 16px; //폰트20 실제16 =4 여백2 /윗여백40-2 /아래여백18-2
+    }
+
+    .sc-recommend &{
+        margin: 37px 0 17px; //39-2=37 / 19-2=17
+    }
+
+    .sc-review &{
+        margin: 39px 0 21px; //41-2 / 23-2
+    }
+}
